@@ -66,7 +66,7 @@ def for_iterator(number_of_times)
   number_of_times = number_of_times.to_a
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
-  for count in number_of_times
+  for count in number_of_times.size
     puts phrase
   end
   
