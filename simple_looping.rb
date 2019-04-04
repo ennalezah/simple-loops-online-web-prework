@@ -63,10 +63,10 @@ def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   
-  number_of_times = (1..number_of_times.to_a
+  number_of_times = (1..number_of_times.to_i)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
-  for count in number_of_times.length
+  for count in number_of_times
     puts phrase
   end
   
